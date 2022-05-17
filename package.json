@@ -1,0 +1,17 @@
+{
+  "name": "curso-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass src/app.scss public/css/style.css",
+    "watch-sass": "sass src/app.scss public/css/style.css --watch",
+    "start": "web-dev-server --app-index public/index.html --node-resolve --open --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.31",
+    "sass": "^1.51.0"
+  }
+}

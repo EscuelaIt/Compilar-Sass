@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-style: 1.5rem;
+  font-weight: 300;
+}
+
+.Button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  border-radius: 1em;
+  background-color: #44aa90;
+  color: #fff;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+@media (min-width: 370px) {
+  .Button {
+    padding: 0.7727em 1.5909em;
+    border-radius: 2rem;
+  }
+}
+.Button:hover {
+  background-color: #287a65;
+}
+.Button-disabled {
+  background-color: #999;
+}
+.Button-disabled:hover {
+  background-color: #999;
+}
+
+.Chip {
+  padding: 0.2rem 0.8rem;
+  background-color: #6344aa;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+}
+.Chip-list {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+.Chip-list li {
+  display: inline-block;
+  margin: 0 0.5rem 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
