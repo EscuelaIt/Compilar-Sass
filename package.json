@@ -1,0 +1,29 @@
+{
+  "name": "curso-sass",
+  "version": "1.0.0",
+  "description": "En este repo están los ejemplos del curso de Sass para las clases de \"Compilado de Sass\". [Curso de Sass](https://escuela.it/cursos/sass) de EscuelaIT.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx mix --production",
+    "dev": "npx mix",
+    "watch": "npx mix watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EscuelaIt/Compilar-Sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EscuelaIt/Compilar-Sass/issues"
+  },
+  "homepage": "https://github.com/EscuelaIt/Compilar-Sass#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0"
+  }
+}
