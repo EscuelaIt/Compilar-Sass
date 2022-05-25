@@ -11,6 +11,12 @@
     border: none;
     transition: background-color 0.3s;
   
+    @each $name, $height in $heights {
+        &-#{$name} {
+            font-size: $height;
+        }
+    }
+
     @media(max-width: 370px) {
       padding: 0.6em 1em;
       border-radius: 1.2em;
@@ -27,3 +33,40 @@
         }
     }
 }
+
+// %button-styles {
+//     display: inline-block;
+//     text-align: center;
+//     font-size: 1.375em;
+//     font-weight: bold;
+//     border-radius: 1.6818em;
+//     background-color: $primary-color;
+//     color: #ffa;
+//     padding: 0.7727em 1.5909em;
+//     cursor: pointer;
+//     border: none;
+//     transition: background-color 0.3s;
+
+//     @media(max-width: 370px) {
+//       padding: 0.6em 1em;
+//       border-radius: 1.2em;
+//     }
+
+//     &:hover {
+//         background-color: $primary-dark-color;
+//     }
+// }
+
+// @each $name, $height in $heights {
+//     .Button-#{$name} {
+//         @extend %button-styles;
+//         font-size: $height;
+//     }
+// }
+
+// .Button-disabled {
+//     background-color: #999;
+//     &:hover {
+//         background-color: #999;
+//     }
+// }
